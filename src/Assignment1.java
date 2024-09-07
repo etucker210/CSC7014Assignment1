@@ -41,7 +41,7 @@ public class Assignment1 {
         int number1 = 5;
         int number2 = 3;
 
-        System.out.printf("The sum of the two numbers is: %d\n", caculateSum(number1, number2));
+        System.out.printf("The sum of the two numbers is: %d\n", calculateSum(number1, number2));
     }
 
     /*********************************************************************
@@ -55,7 +55,7 @@ public class Assignment1 {
      *
      ********************************************************************/
 
-    public static int caculateSum( int number1, int number2 ) {
+    public static int calculateSum( int number1, int number2 ) {
 
         return number1 + number2; //add the numbers and return the value
 
