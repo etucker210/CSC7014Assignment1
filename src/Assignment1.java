@@ -21,6 +21,7 @@ import java.io.Serial;
  * 07 Sep 2024 3:41PM | Create calculate sum function
  * 07 Sep 2024 4:29PM | Create calculateDifference function
  * 07 Sep 2024 4:38PM | Create calculateProduct function
+ * 07 Sep 2024 4:51PM | Create calculateQuotient function
  *
  ************************************************************************/
 
@@ -48,6 +49,7 @@ public class Assignment1 {
         System.out.printf("The sum of the two numbers is: %d\n", calculateSum(number1, number2));
         System.out.printf("Number 1 minus Number 2 is: %d\n", calculateDifference( number1, number2) );
         System.out.printf("The product of the two numbers is: %d\n", calculateProduct( number1, number2 ) );
+        System.out.printf("Number 1 divided by Number 2 is: %f\n", calculateQuotient( number1, number2) );
     }
 
     /*********************************************************************
@@ -100,4 +102,22 @@ public class Assignment1 {
         return number1 * number2; //multiply the numbers and return
 
     }
+
+    /*********************************************************************
+     * Function Name: calculateQuotient
+     * Inputs:        number1 - int - the first number to be divided
+     *                number2 - int - the second number to be divided
+     *
+     * Output:        double - the division of the two numbers
+     *
+     * Description:   This function divides two numbers
+     *
+     ********************************************************************/
+
+    private static double calculateQuotient( int number1, int number2 ) {
+
+        return ((double) number1) / ((double) number2); //divide the numbers and return
+
+    }
+
 }
