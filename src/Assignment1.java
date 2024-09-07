@@ -13,12 +13,27 @@
  * Change Log:
  *
  * Date & Time        | Description
- * -------------------|-------------
+ * -------------------|------------------------
  * 07 Sep 2024 3:00PM | Create File
+ * 07 Sep 2024 3:12PM | Create main functions
  *
  ************************************************************************/
 
 public class Assignment1 {
 
 
+    /*********************************************************************
+     * Function Name: main
+     * Inputs:        args - String[] - arguments when the program is
+     *                      called
+     * Output:        None
+     *
+     * Description:   This project sets the two numbers and then calls all
+     *                the functions for operations.
+     *
+     ********************************************************************/
+
+    public static void main(String[] args) {
+
+    }
 }
