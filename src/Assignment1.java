@@ -16,7 +16,7 @@
  * -------------------|-------------------------------
  * 07 Sep 2024 3:00PM | Create File
  * 07 Sep 2024 3:12PM | Create main functions
- * 07 Sep 2024 3:41PM | Create calculate sum function
+ * 07 Sep 2024 3:41PM | Create calculateSum function
  * 07 Sep 2024 4:29PM | Create calculateDifference function
  * 07 Sep 2024 4:38PM | Create calculateProduct function
  * 07 Sep 2024 4:51PM | Create calculateQuotient function
