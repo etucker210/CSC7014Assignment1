@@ -2,7 +2,7 @@
  *
  * File name: Assignment1.java
  * Author:    Elijah Tucker
- * Last Edit: 7 Sep 2024
+ * Last Edit: 8 Sep 2024
  *
  * Prompt:    Write a Java program that preforms basic arithmetic
  *            operations (addition, subtraction, multiplication, and
@@ -20,6 +20,7 @@
  * 07 Sep 2024 4:29PM | Create calculateDifference function
  * 07 Sep 2024 4:38PM | Create calculateProduct function
  * 07 Sep 2024 4:51PM | Create calculateQuotient function
+ * 08 Sep 2024 9:31AM | Add comments in main function
  *
  ************************************************************************/
 
@@ -33,21 +34,32 @@ public class Assignment1 {
      * Output:        None
      *
      * Description:   This project sets the two numbers and then calls all
-     *                the functions for operations.
+     *                the functions for the different operations and
+     *                prints the results in an easy to read format.
      *
      ********************************************************************/
 
     public static void main(String[] args) {
 
+        //set the numbers
         int number1 = 5;
         int number2 = 3;
 
+        //Display the set numbers used
         System.out.printf("Number 1 is: %d\nNumber 2 is: %d\n", number1, number2);
 
+        //add two numbers and display
         System.out.printf("The sum of the two numbers is: %d\n", calculateSum(number1, number2));
+
+        //subtract two numbers and display
         System.out.printf("Number 1 minus Number 2 is: %d\n", calculateDifference( number1, number2) );
+
+        //Multiply two numbers and display
         System.out.printf("The product of the two numbers is: %d\n", calculateProduct( number1, number2 ) );
+
+        //divide the two numbers and display
         System.out.printf("Number 1 divided by Number 2 is: %f\n", calculateQuotient( number1, number2) );
+
     }
 
     /*********************************************************************
