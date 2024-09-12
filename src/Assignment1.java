@@ -22,6 +22,7 @@
  * 07 Sep 2024 4:51PM | Create calculateQuotient function
  * 08 Sep 2024 9:31AM | Add comments in main function
  * 09 Sep 2024 3:36PM | Clean up the main function to be more readable
+ * 12 Sep 2024 5:39PM | Fix to have the right print call
  *
  ************************************************************************/
 
@@ -47,19 +48,20 @@ public class Assignment1 {
         int number2 = 3;
 
         //Display the set numbers used
-        System.out.printf("Number 1 is: %d\nNumber 2 is: %d\n", number1, number2);
+        System.out.println("Number 1 is: " + number1);
+        System.out.println("Number 2 is: " + number2);
 
         int sum = calculateSum(number1, number2); //add the two numbers
-        System.out.printf("The sum of the two numbers is: %d\n", sum); //display the sum
+        System.out.println("The sum of the two numbers is: " + sum); //display the sum
 
         int difference = calculateDifference(number1, number2); //subtract number 2 from number 1
-        System.out.printf("Number 1 minus Number 2 is: %d\n", difference ); //display the difference
+        System.out.println("Number 1 minus Number 2 is: " + difference ); //display the difference
 
         int product = calculateProduct(number1, number2); // multiply the two numbers
-        System.out.printf("The product of the two numbers is: %d\n", product ); //display the product
+        System.out.println("The product of the two numbers is: " + product ); //display the product
 
         double quotient = calculateQuotient(number1, number2); //divide number 1 by number 2
-        System.out.printf("Number 1 divided by Number 2 is: %f\n", quotient ); //display the quotient
+        System.out.println("Number 1 divided by Number 2 is: " + quotient ); //display the quotient
 
     }
 
