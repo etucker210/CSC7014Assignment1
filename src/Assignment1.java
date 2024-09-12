@@ -51,17 +51,21 @@ public class Assignment1 {
         System.out.println("Number 1 is: " + number1);
         System.out.println("Number 2 is: " + number2);
 
-        int sum = calculateSum(number1, number2); //add the two numbers
-        System.out.println("The sum of the two numbers is: " + sum); //display the sum
+        //add the two numbers and display
+        int sum = calculateSum(number1, number2);
+        System.out.println("The sum of the two numbers is: " + sum);
 
-        int difference = calculateDifference(number1, number2); //subtract number 2 from number 1
-        System.out.println("Number 1 minus Number 2 is: " + difference ); //display the difference
+        //subtract number 2 from number 1 and display
+        int difference = calculateDifference(number1, number2);
+        System.out.println("Number 1 minus Number 2 is: " + difference );
 
-        int product = calculateProduct(number1, number2); // multiply the two numbers
-        System.out.println("The product of the two numbers is: " + product ); //display the product
+        // multiply the two numbers and display
+        int product = calculateProduct(number1, number2);
+        System.out.println("The product of the two numbers is: " + product );
 
-        double quotient = calculateQuotient(number1, number2); //divide number 1 by number 2
-        System.out.println("Number 1 divided by Number 2 is: " + quotient ); //display the quotient
+        //divide number 1 by number 2 and display
+        double quotient = calculateQuotient(number1, number2);
+        System.out.println("Number 1 divided by Number 2 is: " + quotient );
 
     }
 
@@ -78,7 +82,7 @@ public class Assignment1 {
 
     private static int calculateSum( int number1, int number2 ) {
 
-        return number1 + number2; //add the numbers and return the value
+        return number1 + number2;
 
     }
 
@@ -95,7 +99,7 @@ public class Assignment1 {
 
     private static int calculateDifference( int number1, int number2 ) {
 
-        return number1 - number2; //subtract the numbers and return
+        return number1 - number2;
 
     }
 
@@ -112,7 +116,7 @@ public class Assignment1 {
 
     private static int calculateProduct( int number1, int number2 ) {
 
-        return number1 * number2; //multiply the numbers and return
+        return number1 * number2;
 
     }
 
@@ -129,7 +133,7 @@ public class Assignment1 {
 
     private static double calculateQuotient( int number1, int number2 ) {
 
-        return ((double) number1) / ((double) number2); //divide the numbers and return
+        return ((double) number1) / ((double) number2);
 
     }
 
