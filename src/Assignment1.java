@@ -2,7 +2,7 @@
  *
  * File name: Assignment1.java
  * Author:    Elijah Tucker
- * Last Edit: 9 Sep 2024
+ * Last Edit: 12 Sep 2024
  *
  * Prompt:    Write a Java program that preforms basic arithmetic
  *            operations (addition, subtraction, multiplication, and
